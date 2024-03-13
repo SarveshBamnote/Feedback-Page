@@ -1,0 +1,112 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  border-radius: 12px;
+  width: 80%;
+  max-width: 650px;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card-container {
+    padding: 64px;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+@media screen and (min-width: 992px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+
+.emoji-container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  margin-top: 32px;
+  list-style-type: none;
+}
+
+.emoji-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.emoji {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.name {
+  font-size: 12px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 18px;
+  }
+}
+
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .thanks-container {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .thanks-container {
+    padding: 64px;
+  }
+}
+
+.desc {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 300;
+}
